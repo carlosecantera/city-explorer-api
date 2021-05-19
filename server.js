@@ -34,7 +34,7 @@ app.get('/weather', (request, response) => {
   // console.log(data);
 
   response.json(data);
-  // weather.json(data);
+  weather.json(data);
 });
 
 app.listen(PORT, () => console.log('Server is running'));
